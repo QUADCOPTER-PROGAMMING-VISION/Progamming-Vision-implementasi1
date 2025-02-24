@@ -15,7 +15,7 @@ def getKeyboardInput():
     lr, fb, ud, yv = 0,0,0,0
     speed = 50
 
-    keys = ["LEFT", "RIGHT", "UP", "DOWN", "w", "s", "a", "d", "q", "e", "z"]
+    keys = ["LEFT", "RIGHT", "UP", "DOWN", "w", "s", "a", "d", "x", "e", "z"]
     for key in keys:
         if kp.getKey(key):
             print(f"{key} key pressed")  # Debugging tombol yang ditekan
@@ -35,7 +35,7 @@ def getKeyboardInput():
     # if kp.getKey("a"):  yv = speed
     # elif kp.getKey("d"): yv = -speed #arah jam
     #
-    # if kp.getKey("q"): print("Q key pressed (Mendarat)")
+    # if kp.getKey("x"): print("Q key pressed (Mendarat)")
     # if kp.getKey("e"): print("E key pressed (Lepas landas)")
     #
     #
